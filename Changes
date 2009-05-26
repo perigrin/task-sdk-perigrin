@@ -1,5 +1,8 @@
 Revision history for Task-SDK-Perigrin
 
-0.0.1  Sat Dec 29 17:48:36 2007
+0.02  2009-05-25
+	   Fix a bad dist
+	
+0.01  2009-05-25
        Initial release.
 
