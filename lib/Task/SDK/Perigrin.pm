@@ -1,6 +1,6 @@
 package Task::SDK::Perigrin;
 use strict;
-our $VERSION = '0.03';
+our $VERSION = '0.05';
 
 1;    # Magic true value required at end of module
 __END__
@@ -12,7 +12,7 @@ Task::SDK::Perigrin - A List of Modules I Use Constantly
 
 =head1 VERSION
 
-This document describes Task::SDK::Perigrin version 0.03
+This document describes Task::SDK::Perigrin version 0.05
 
 
 =head1 SYNOPSIS
@@ -21,136 +21,18 @@ This document describes Task::SDK::Perigrin version 0.03
 
 =head1 DESCRIPTION
 
-This is a meta-package that gathers together what I find to be my standard
-install.
+This is a meta-package that gathers together what I find to be my
+standard toolkit.
 
 =head1 DEPENDENCIES
 
+=head2 Task::Kensho
 
-=head2 Specific Modules
+=head2 Module::Install::Repository
 
-=over
+=head2 Module::Install::AutoManifest
 
-=item local::lib
-
-=item Task::Kensho
-
-=back
-
-=head2 Moose
-
-=over
-
-=item  Moose
-
-=item  namespace::autoclean
-
-=item  MooseX::GetOpt
-
-=item  MooseX::SimpleConfig
-
-=item  MooseX::AttributeHelpers
-
-=item  MooseX::POE
-
-=item  MooseX::Declare
-
-=item  MooseX::Types
-
-=item  MooseX::Types::Path::Class
-
-=item  MooseX::LogDispatch
-
-=item  MooseX::Workers
-
-=item  MooseX::MetaDescription
-
-=item  MooseX::Storage
-
-=item  Task::Moose
-
-=back
-
-=head2  Module Development
-
-=over
-
-=item  Module::Install
-
-=item  Module::Install::AutoManifest
-
-=item  Module::Install::Repository
-
-=back
-
-=head2  Bots
-
-=over
-
-=item  Task::POE::IRC
-
-=item  Regexp::Common::IRC
-
-=back
-
-=head2 Storage
-
-=over
-
-=item  KiokuDB
-
-=item  DBIx::Class
-
-=back
-
-=head2 Tools
-
-=over
-
-=item  App::Ack
-
-=item  App::Nopaste
-
-=item  Module::Corelist
-
-=back
-
-=head2 Utilities
-
-=over
-
-=item  JSON::Any
-
-=item  YAML::XS
-
-=back
-
-=head2 Web
-
-=over
-
-=item  Catalyst::Runtime
-
-=item  Catalyst::View::TT
-
-=item  Catalyst::Controller::REST
-
-=item  Catalyst::Authentication::Credential::OpenID
-
-=item  HTTP::Engine
-
-=back
-
-=head2 XML
-
-=over
-
-=item  XML::LibXML
-
-=item  XML::Toolkit
-
-=back
-
+=head2 Net::Hiveminder
 
 =head1 BUGS AND LIMITATIONS
 
@@ -164,7 +46,8 @@ Chris Prather  C<< <chris@prahter.org> >>
 
 =head1 LICENCE AND COPYRIGHT
 
-Copyright (c) 2007, Chris Prather C<< <chris@prahter.org> >>. Some rights reserved.
+Copyright (c) 2007-2010 Chris Prather C<< <chris@prahter.org> >>. Some
+rights reserved.
 
 This module is free software; you can redistribute it and/or
 modify it under the same terms as Perl itself. See L<perlartistic>.
